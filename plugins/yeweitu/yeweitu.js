@@ -11,6 +11,14 @@
         }
         **/
         "yeweitu": function(setting, data) {
+            var html = '<div class="top">' +
+                '</div>' +
+                '<div class="content">' +
+                '<div class="water"></div>' +
+                '</div>' +
+                '<div class="bottom">' +
+                '</div>';
+            this.html(html);
             this.find(".water").css("background-color", setting.backgroundColor);
             this.find(".water").css("height", data.percent);
             return this;
