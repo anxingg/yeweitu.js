@@ -1,0 +1,61 @@
+.yeweitu {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.yeweitu .top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 995;
+    width: 100%;
+    height: 10%;
+    border: 2px solid;
+    border-color: #d98f23;
+    border-radius: 50%;
+    background-color: #b6781e;
+    box-shadow: 5px 0px 10px hsla(0, 0%, 0%, .2);
+}
+
+.yeweitu .content {
+    position: absolute;
+    top: 5%;
+    left: 0px;
+    z-index: 994;
+    width: 100%;
+    height: 90%;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: #d98f23;
+    box-shadow: 5px 0px 10px hsla(0, 0%, 0%, .2);
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.yeweitu .content .water {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    bottom: 0px;
+    background-color: red;
+}
+
+.yeweitu .bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 995;
+    width: 100%;
+    height: 10%;
+    border: 2px solid;
+    border-color: #d98f23;
+    border-radius: 50%;
+    background-color: #b6781e;
+    box-shadow: 5px 0px 10px hsla(0, 0%, 0%, .2);
+}
