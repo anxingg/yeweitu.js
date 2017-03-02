@@ -3,13 +3,14 @@
 
 示例代码
 -
-* html部分
+html部分
 
     <div id="yeweitu" class="yeweitu">
 
     </div>
 
- * JS部分   
+JS部分
+   
     jQuery(document).ready(function($) {
             var setting = {
                 backgroundColor: "red", //液体颜色
