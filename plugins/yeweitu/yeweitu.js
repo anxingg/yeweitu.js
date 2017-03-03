@@ -1,3 +1,7 @@
+/**
+ * auther:anxingg
+ * mail:13683717560@139.com
+ */
 (function($) {
     $.fn.extend({
         /**
